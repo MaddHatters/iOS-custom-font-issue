@@ -1,0 +1,7 @@
+{
+  "name": "ios-select",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
