@@ -9,7 +9,12 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "reproduce": "npm i && npm run ios",
+    "ios": "npx ionic capacitor run ios --configuration=development",
+    "android": "npx ionic capacitor run android --configuration=development",
+    "ios:live": "npm run ios -- --livereload --external"
+
   },
   "private": true,
   "dependencies": {

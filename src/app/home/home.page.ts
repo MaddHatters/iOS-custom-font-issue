@@ -1,7 +1,5 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
 import { IonicModule } from '@ionic/angular';
 
 @Component({
@@ -11,8 +9,6 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
   imports: [
     IonicModule,
-    BrowserModule,
-    FormsModule,
     CommonModule
   ],
 })

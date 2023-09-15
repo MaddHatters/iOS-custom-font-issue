@@ -2,7 +2,6 @@
 	<ion-toolbar>
 		<ion-title >Select Property</ion-title>
 	</ion-toolbar>
-	<!-- <ion-searchbar class="ion-no-padding" [(ngModel)]="searchText" placeholder="Search Property"></ion-searchbar> -->
 </ion-header>
 
 <ion-content force-overscroll="false">
@@ -12,14 +11,11 @@
 				<ion-label>Property: {{i}}</ion-label>
 			</ion-item>	
 		</ng-container>
-		<!-- <ion-item class="ion-text-center" *ngIf="checkFilterData(propertyList | filter : searchText: 'name') === 0">
-			No Property Found.
-		</ion-item> -->
 	</ion-list>
 </ion-content>
 
 <ion-footer>
 	<ion-button>
-		Select
+		Select A Prop
 	</ion-button>
 </ion-footer>
